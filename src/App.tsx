@@ -55,7 +55,7 @@ export default function App() {
     if (tg) {
       tg.expand();
       tg.ready();
-    }
+    }const API = "https://telegram-vwyl.onrender.com";
     fetchUser();
   }, []);
 
